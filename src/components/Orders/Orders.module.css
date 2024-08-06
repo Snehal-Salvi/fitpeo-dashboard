@@ -1,0 +1,102 @@
+/* Styling for Orders Component */
+.title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.table {
+    width: 100%;
+
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.header {
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+
+.cell {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: black;
+    transform: scale(1.02);
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.delivered {
+    padding: 5px 10px;
+    border-radius: 20%/50%;
+    background-color: rgb(19 81 70);
+    color: #1a876c;
+}
+
+.cancelled,
+.pending {
+    padding: 5px 10px;
+    border-radius: 20%/50%;
+    background-color: rgb(94 51 55);
+    color: #9a4d52;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .header,
+    .cell {
+        padding: 8px;
+    }
+
+    .avatar {
+        width: 25px;
+        height: 25px;
+    }
+
+    .delivered,
+    .cancelled,
+    .pending {
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .title {
+        font-size: 15px;
+    }
+
+    .header,
+    .cell {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .avatar {
+        width: 20px;
+        height: 20px;
+    }
+
+    .delivered,
+    .cancelled,
+    .pending {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+}

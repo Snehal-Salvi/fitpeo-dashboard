@@ -1,0 +1,108 @@
+/* Styling for Header Component */
+.header {
+  background-color: #202028 !important;
+}
+
+.searchContainer {
+  margin-left: 70px;
+  align-items: center;
+  background-color: #2b3035;
+  border-radius: 5px;
+  width: 250px;
+  height: 35px;
+  padding: 0 !important;
+  border: 0.5px solid #757575;
+}
+
+.searchIcon {
+  color: #6c6e74;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #2b3035;
+
+}
+
+.navItem {
+  width: 40px;
+  height: 40px;
+  background-color: #44464c;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 50%;
+
+}
+
+.navItem:hover {
+  color: blue;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.profileImage {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.customCollapse {
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+
+  .customCollapse ul.navbar-nav,
+  .customCollapse div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customCollapse ul.navbar-nav {
+    margin-bottom: 10px;
+  }
+
+  .customCollapse div {
+    width: 100%;
+  }
+
+  .navItem {
+    width: 80%;
+    border-radius: 0;
+    padding: 10px;
+    height: fit-content;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 460px) {
+  .searchContainer {
+    max-width: 100px;
+
+  }
+
+  .searchInput {
+    width: calc(100% - 30px);
+    height: 25px;
+  }
+
+  .searchIcon {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+
+  .navItem {
+    width: 20%;
+  }
+
+}

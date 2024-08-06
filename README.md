@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🎨 Fitpeo Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates a variety of UI components styled with custom CSS modules. It includes components such as Header, Sidebar, Dashboard, Feedback, and others, each designed with a focus on responsiveness and modern styling practices.
 
-## Available Scripts
+## 🌐 Deployment
 
-In the project directory, you can run:
+[Fitpeo Dashboard](https://66b1ce19858dfd9aa036984f--verdant-piroshki-54c050.netlify.app)
 
-### `npm start`
+## 📸 Snapshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Page**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Dashboard](./src/assets/dashboard.png)
 
-### `npm test`
+## 🛠️ Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install the necessary dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+5. The app will start running on http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🏗 Component Styling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Header
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Utilizes Bootstrap for responsive navigation. Custom styles are applied to the search bar, navigation items, and profile image.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Sidebar
 
-## Learn More
+Styled to maintain a fixed position on the left side of the screen with a logo and navigation icons.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Dashboard
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Uses a grid layout with a left and right container for different sections (e.g., Statistics, Orders).
 
-### Code Splitting
+### Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Displays customer feedback in a table format with avatars, names, ratings, and review text.
 
-### Analyzing the Bundle Size
+### Options
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Presents options with icons and titles in a card format.
 
-### Making a Progressive Web App
+### Orders
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Uses a table to list recent orders with columns for customer, order number, amount, and status.
 
-### Advanced Configuration
+### Profit
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Displays a circular progress bar for profit tracking along with text indicating progress.
 
-### Deployment
+### Circular Progress Bar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Shows progress with a circular bar and percentage text.
 
-### `npm run build` fails to minify
+### Activity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The component uses the ActivityChart to display data visually using react-chartjs-2.
+
+## 💡 Technologies Used
+
+- **React**
+- **CSS Modules**
+- **React Icons**
+- **React Circular Progressbar**
+- **React-chartjs-2**
+- **Bootstrap**
+
+## 👩‍💻 Authors
+
+- [@Snehal](https://github.com/Snehal-Salvi)

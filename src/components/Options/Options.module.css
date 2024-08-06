@@ -1,0 +1,79 @@
+/* Styling for Options Component */
+.container {
+    width: 98%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.container:hover {
+    background-color: black;
+    transform: scale(1.02);
+}
+
+.icon {
+    width: 15%;
+    height: 95%;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading {
+    width: 55%;
+    height: 100%;
+    font-size: 22px;
+    padding: 10px;
+    color: white;
+}
+
+.button {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.targetIcon {
+    font-size: 30px;
+    color: #a85132;
+    background-color: rgb(92, 52, 61);
+}
+
+.burgerIcon {
+    font-size: 30px;
+    color: #606fbe;
+    background-color: rgb(41, 49, 102);
+}
+
+.menuIcon {
+    font-size: 30px;
+    color: #3284a5;
+    background-color: rgb(29, 74, 93);
+}
+
+.moreButtonIcon {
+    width: 20%;
+    height: 50%;
+    background-color: #3f4046;
+    color: #b1b2b6;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.container:hover .moreButtonIcon {
+    transform: translateX(6px);
+}

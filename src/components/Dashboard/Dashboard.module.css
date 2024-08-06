@@ -1,0 +1,114 @@
+/* Styling for Dashboard Component */
+.title {
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+    margin-top: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    gap: 10px;
+}
+
+.leftContainer {
+    width: 65%;
+}
+
+.rightContainer {
+    width: 35%;
+}
+
+.leftContainer,
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #202028;
+    margin-bottom: 10px;
+}
+
+.card:first-child {
+    margin-top: 0;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.statasticsContainer,
+.profitContainer {
+    height: 20vh;
+}
+
+.activityContainer,
+.optionsContainer {
+    height: 30vh;
+}
+
+.activityContainer {
+    padding: 8px;
+}
+
+.ordersContainer,
+.feedbackContainer {
+    max-height: 65vh;
+    padding: 8px;
+}
+
+.statasticsContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.profitContainer {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+
+    .leftContainer {
+        width: 100%;
+    }
+
+    .rightContainer {
+        width: 100%;
+    }
+
+    .ordersContainer,
+    .feedbackContainer {
+        max-height: fit-content;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        text-align: center;
+    }
+
+    .statasticsContainer {
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .ordersContainer,
+    .feedbackContainer {
+        max-height: fit-content;
+        padding: 8px;
+    }
+}
